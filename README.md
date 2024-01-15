@@ -7,7 +7,9 @@ HTTP listener to receive file by POST and submit directly to Google Drive
 
 # How to use
 using cURL:
-```curl -i -X POST -H "Content-Type: multipart/form-data" -F "file=@myfile.doc;filename=myfile.doc" http://server/upload/```
+```
+curl -i -X POST -H "Content-Type: multipart/form-data" -F "file=@myfile.doc;filename=myfile.doc" http://server/upload/
+```
 
 using Java:
 ```
